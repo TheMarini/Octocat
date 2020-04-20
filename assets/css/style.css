@@ -1,0 +1,83 @@
+/*----------NORMATIZAÇÃO------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: whitesmoke
+}
+
+::selection {
+  color: whitesmoke;
+  background-color: black
+}
+
+
+/*----------CLASSES------------*/
+
+._center-child {
+  display: flex;
+  /* Distribuição */
+  align-items: center;
+  /* Alinhar horizontal (eixo X) */
+  justify-content: center/* Alinhar vertical (eixo Y) */
+}
+
+/*---------- HEADER ------------*/
+header{
+  width: 100%;
+  height: 100vh;
+  background-color: cadetblue;
+  padding: 20px 0;
+}
+
+header h1{
+  font-size: 5em;
+}
+
+header h1 span{
+  color: whitesmoke
+  /* color: #212529 */
+}
+
+header img{
+  max-height: 60vh;
+  height: auto;
+}
+
+main{
+  padding: 60px 0
+}
+
+main h1, main h2{
+  text-align: center;
+}
+
+main img{
+  width: 200px;
+  opacity: 0.9
+}
+
+footer{
+  background-color: #2e2d2c;
+  color: white;
+  padding: 12px 0
+}
+
+footer p{
+  margin-bottom: 0
+}
+
+.material-icons.red{
+  color: indianred;
+}
